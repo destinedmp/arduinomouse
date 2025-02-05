@@ -6,7 +6,7 @@ from pynput.mouse import Button, Controller
 mouse = Controller()
 
 # Replace 'COM3' with your Arduino's port (e.g., '/dev/ttyUSB0' for Linux/Mac)
-arduino_port = 'COM5'
+arduino_port = 'COM3'
 baud_rate = 9600
 
 # Connect to Arduino
